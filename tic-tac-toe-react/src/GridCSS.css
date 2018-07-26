@@ -1,0 +1,44 @@
+
+.box {
+  display: inline-block;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin:auto;
+  background: #07324B;
+}
+
+.off {
+  background-color: lightgray;
+}
+
+.on {
+  background-color: green;
+}
+
+.box:hover {
+  background: #0179b2;
+}
+
+.center {
+  margin: auto;
+  display: table;
+  margin-top: 10px;
+}
+
+.grid {
+  width: 600px;
+  margin: auto;
+  line-height: 0;
+  margin-top: -500px;
+  margin-bottom: 100px;
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  padding: 10px;
+}
+
+h4 {
+  margin-top: 0px;
+}

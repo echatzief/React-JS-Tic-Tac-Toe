@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(30, 30, 30); /* Fallback color */
+  color:White;
+  font-size: 20px;
+}
+
+/* The Modal (background) */
+.modal {
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(30, 30, 30); /* Fallback color */
+}
+
+/* Modal Content */
+.modal-content {
+    height: 150%;
+    width: 100%;
+    background-color: rgba(30, 30, 30); /* Fallback color */
+    color:#f94e3f;
+    font-family: "Baloo Bhai", cursive;
+    font-size:65px;
+}
+
+/* The Close Button */
+.close{
+  color:white;
+  font-size:100;
+  padding: 100px;
+  top:100px;
+}
+
+.title{
+  margin-left: 400px;
+}
+.chooseSide{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #07324B;
+    border: none;
+    border-radius: 15px;
+    color: #1e1e1e;
+    width: 200px;
+    height: 205;
+    font-size:100px;
+    margin: 25px;
+    padding-top: 10px;
+    margin-left: -10px;
+    font-family: "Baloo Bhai", cursive;
+}
+.set{
+  margin-left: 480px;
+}
+.chooseSide:hover{
+  color: #f94e3f;
+}
+.inputGet{
+  padding: 30px;
+  margin-left: -70px;
+  width: 540px;
+  font-size:30px;
+  background: #07324B;
+  color: white;
+}
+
+.goBut{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #07324B;
+  border: none;
+  border-radius: 15px;
+  color: #1e1e1e;
+  width: 200px;
+  height: 205;
+  font-size:100px;
+  margin: 25px;
+  padding-top: 10px;
+  margin-left: 100px;
+  font-family: "Baloo Bhai", cursive;
+}
+
+.goBut:hover{
+  color:green;
+}
+.mainBut{
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background: #07324B;
+  border: none;
+  border-radius: 15px;
+  color: #1e1e1e;
+  width: 200px;
+  height: 205;
+  font-size:30px;
+  margin: 25px;
+  padding-top: 10px;
+  font-family: "Baloo Bhai", cursive;
+}
+.mainBut:hover{
+  color:#01b23c;
+}
